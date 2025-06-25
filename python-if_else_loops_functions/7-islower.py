@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+
 def islower(c):
     """Check if character is lowercase without string methods or imports."""
     if not isinstance(c, str) or len(c) != 1:
