@@ -1,4 +1,2 @@
 #!/usr/bin/python3
-import sys
-sys.stdout.write(str[39:66] + str[106:112] + str[:6] + '\n')
-
+print(__import__('this').s[39:66] + __import__('this').s[106:112] + __import__('this').s[:6])
