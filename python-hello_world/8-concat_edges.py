@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-print(str)
+print(end="object-oriented programming with Python\n")
