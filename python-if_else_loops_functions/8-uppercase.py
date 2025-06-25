@@ -1,16 +1,20 @@
 #!/usr/bin/python3
 
 def uppercase(str):
-    """Print a string in uppercase followed by new line."""
+    """Print a string in uppercase without using str.upper()."""
     result = ""
     for c in str:
-        if ord('a') <= ord(c) <= ord('z'):
+        if 'a' <= c <= 'z':
             result += chr(ord(c) - 32)
         else:
             result += c
-    print(result)
+    print(result, end="")
+    print()
 
 
 if __name__ == "__main__":
-    uppercase("best")
-    uppercase("Best School 98 Battery street")
+    uppercase("holberton")
+    uppercase("Holberton School")
+    uppercase("Holberton School, 98 battery street")
+    uppercase("")
+    uppercase(98)  # Will raise AttributeError as specified in requirements
