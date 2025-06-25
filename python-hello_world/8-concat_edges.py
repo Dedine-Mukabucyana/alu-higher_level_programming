@@ -1,3 +1,2 @@
 #!/usr/bin/python3
-import this
-print(this.s[39:66] + this.s[106:112] + this.s[:6])
+print(str[39:66] + str[106:112] + str[:6])
