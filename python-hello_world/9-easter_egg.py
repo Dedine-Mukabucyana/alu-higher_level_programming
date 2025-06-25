@@ -1,1 +1,2 @@
-echo "import this" | wc -m
+#!/usr/bin/python3
+__import__('this')
