@@ -1,12 +1,5 @@
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
-    """
-    Computes the square value of all integers in a matrix.
-    
-    Args:
-        matrix: 2D list of integers
-    
-    Returns:
-        New matrix with squared values
-    """
-    return [[x**2 for x in row] for row in matrix]
+    if not matrix:
+        print()
+    return [[element * element for element in row] for row in matrix]
