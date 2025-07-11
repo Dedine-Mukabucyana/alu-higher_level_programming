@@ -1,11 +1,12 @@
 #!/usr/bin/python3
-"""list of available attributes and methods of an object"""
+""""List inheritance"""
 
 
-def lookup(obj):
-    """Return attributes
-    Args :
-        - obj: object to get attributes
-    """
+class MyList(list):
+    """Class MyList inherits list."""
 
-    return dir(obj)
+    def print_sorted(self):
+        """Prints sorted lists."""
+        temp_list = self[:]
+        temp_list.sort()
+        print("{}".format(temp_list))
