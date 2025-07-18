@@ -1,2 +1,4 @@
--- all records with id=89
-SELECT COUNT(id) FROM first_table WHERE id = 89;
+-- Script to update Bob's score to 10 in second_table
+UPDATE second_table
+SET score = 10
+WHERE name = 'Bob';
